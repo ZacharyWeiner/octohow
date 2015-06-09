@@ -1,0 +1,8 @@
+<div class="clear">
+	<% @posts.each do |p| %>
+		<div>
+			<h2> <%= p.title %></h2>
+			<p> <%= p.content.html_safe %> </p>
+		</div>
+	<%end%>
+</div>

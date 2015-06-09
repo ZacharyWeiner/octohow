@@ -1,10 +1,12 @@
-class PostController < ApplicationController
-before_action :set_post
+class PostsController < ApplicationController
+	before_action :set_post
 
 	def index 
 		@posts = Post.all
 	end
 
+	def show
+	end
  # GET /posts/new
   def new
 
