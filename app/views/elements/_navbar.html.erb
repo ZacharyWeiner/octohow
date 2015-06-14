@@ -13,6 +13,7 @@
   <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse" id="navbar-collapse-1">
     <ul class="nav navbar-nav">
+    <%= link_to "Slide Deck", defined?(galleries_path) ? galleries_path : "#", class: "navbar-brand" %>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <% if defined?(Devise) %>
