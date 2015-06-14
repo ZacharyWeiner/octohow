@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :galleries
+
   get 'landings/index'
   resources :posts
 
